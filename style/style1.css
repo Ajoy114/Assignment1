@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+
+.logo img {
+    width: 139px;
+    height: 60px;
+}
+
+nav {
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .header-nav {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    align-items: center;
+}
+
+nav .header-nav a {
+    color: #000000;
+    font-size: 16px;
+    line-height: 152%;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #469165;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF8F3;
+    cursor: pointer;
+}
+
+#banner-part {
+    background: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 674px;
+    padding: 70px 120px 134px 120px;
+
+
+}
+
+#banner-part .banner-part-container {
+
+    width: 1360px;
+    height: 379px;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 295px;
+}
+
+#banner-part .banner-part-container .h11 {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 72px;
+    text-transform: capitalize;
+    line-height: 84px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#banner-part .banner-part-container .h12 {
+    text-align: center;
+    color: #30B868;
+    font-weight: 700;
+    font-size: 72px;
+    text-transform: capitalize;
+    line-height: 84px;
+    margin: 0px;
+    padding-bottom: 16px;
+}
+
+#banner-part .banner-part-container .banner-text {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0px;
+    padding-bottom: 32px;
+}
+
+#banner-part .banner-part-container .banner-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn1 {
+
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF8F3;
+    cursor: pointer;
+}
+
+main {
+    padding: 0px 120px 120px 120px;
+}
+
+main #main-container {
+    width: 1360px;
+    height: 448px;
+}
+
+main #main-container .main-container-heading {
+    width: 1360px;
+    height: 153px;
+}
+
+main #main-container .main-container-heading .main-container-heading-title {
+    font-size: 48px;
+    font-style: bold;
+    font-weight: 700;
+    color: #001931;
+    height: 116px;
+    width: 1360px;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 58px;
+    margin-bottom: 16px;
+}
+
+.heading-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    text-align: center;
+    line-height: 20px;
+}
+
+.main-container-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 1360px;
+    height: 300px;
+}
+
+.main-container-card .main-container-card-info {
+    width: 322px;
+    height: 300px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container-card .main-container-card-info .background-image {
+
+    background-color: #F95555;
+
+    padding: 0;
+}
+
+.red-circle {
+    background-color: #F95555;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+
+}
+
+.main-container-card-info .red-circle img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.main-container-card-info .main-container-card-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 29px;
+    margin-bottom: 16px;
+}
