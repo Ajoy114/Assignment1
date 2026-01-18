@@ -49,6 +49,28 @@ nav .header-nav a {
     font-weight: bold;
     color: #FFF8F3;
     cursor: pointer;
+    text-align: center;
+
+}
+
+.btn-shadow {
+    background-color: #469165;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF8F3;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.btn-img {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
 }
 
 #banner-part {
@@ -66,6 +88,8 @@ nav .header-nav a {
     width: 1360px;
     height: 379px;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 0 295px;
@@ -437,4 +461,34 @@ footer {
     font-size: 16px;
     font-weight: 400;
 
+}
+
+
+.badge {
+    width: 239px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 18px;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    font-family: Arial, sans-serif;
+}
+
+.dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #4caf50;
+    box-shadow: 0 0 0 4px rgba(76, 175, 80, 0.25);
+}
+
+.text {
+    color: #4caf50;
+    font-size: 16px;
+    font-weight: 500;
+    width: 183px;
+    height: 19px;
 }
